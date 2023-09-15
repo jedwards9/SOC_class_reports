@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{tcolorbox}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{minted}
+\usepackage{float}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+\title{System on a Chip Class Report 2}
+\author{Jordan D Edwards}
+
+
+\begin{document}
+	
+	\title{Class Report 1
+		\\ \large{ELC 4396 System on a Chip}  }
+	
+	\author{Jordan Edwards \\ Baylor University} %the \\ symbols starts a new line
+	\date{September 14, 2023}
+	\maketitle
+	
+	\subsection*{Introduction}
+	For this assignment, I completed experiment 6.5.6 from the textbook. The goal was to use the Digilent Nexys 4 DDR board to implement a reaction-time measurement device as described in the textbook. The finished circuit should first greet the user by displaying "HI" on the seven segment display. Upon pressing the start button, the board should wait for a random interval before lighting a single LED. The user should then press the stop button, at which point their reaction time will be displayed. The assignment also included instructions on how to handle exceptional cases such as the button being pressed too early or not at all.
+	
+	
+	\subsection*{Implementation}
+	I began by wrapping my counter from the previous project to be able to support a predetermined maximum value. This allowed me to implement a series of counters to find the reaction time of the user. I chose to use a single overarching state machine with the following states: intro, waiting, reacting, timeout, results, and cheated.
+	
+	A 31 bit counter connected to a 100MHz clock will overflow after approximately 21 seconds. By limiting the top four bits to not exceed 1011, this time is reduced to just over 14 seconds. In order to generate the random delay time, I have a five bit counter connected to the main clock, which overflows at 10111. Because this overflows so quickly, by simply stopping this counter when the start button is pressed, it produces an essentially random number. These five bits are compared to the top five bits of the waiting counter in order to determine the pause time before transitioning to the reaction state.
+	
+	The intro state waits for the user to initiate the test. The waiting state blanks all outputs for a random period of time. If the button is pressed during this state, the state machine transitions to the "cheated" state. If no input is given, the state transfers to the "reacting" state. During this state, a sequence of cascaded BCD counters show the elapsed time on the seven segment displays. If the button is pressed in under one second, the displays freeze, transitioning to the "results" state. Otherwise, the display stops counting at one second, and the state is set to "timeout." During any of the three final states (cheated, results, and timeout), the reset button will return to the waiting state.
+	
+	\subsection*{Results}
+	Each individual component works well in the simulation, but as of yet, the integration does not function properly. The main state machine has a couple of transitions that do not work, but each individual state has been tested independently and shown to work.
+	
+	\subsection*{Analysis}
+	The BCD to seven segment converters that I utilized for this project will likely be useful for future projects. This implementation probably is not as compact as it could be. There are several counter which could likely be cleverly combined in order to reduce the size of the circuit. The variable, stackable counters should also work well for many other applications later on.
+	
+\end{document}
