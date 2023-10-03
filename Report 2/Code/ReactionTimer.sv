@@ -21,7 +21,9 @@
 
 
 module ReactionTimer(
-    //input  logic button,
+    input  logic BTNC,
+    input  logic BTNL,
+    input  logic BTNR,
     input  logic CLK100MHZ,
     input  logic [15:0] SW,
     //output logic light,
@@ -67,8 +69,8 @@ module ReactionTimer(
     logic RandomWait;
     logic [30:0] currWait;
     logic [4:0] RNGVal;
-    MaxCounter#(.N(5)) RNG(.rst(0), .en(RNGen), .clk(CLK100MHZ), .maxVal(4'b10101), .count(RNGVal));
-    Counter#(.N(31))(.clk(CLK100MHZ), .rst(RNGRst), .UpDownn(1), .en(randomWait), .load(0), .count(currWait));
+    MaxCounter#(.N(5)) RNG(.rst(0), .en(RNGen), .clk(CLK100MHZ), .maxVal(5'b10101), .count(RNGVal));
+    Counter#(.N(31)) RNGCounter(.clk(CLK100MHZ), .rst(RNGRst), .UpDownn(1), .en(RandomWait), .load(0), .count(currWait));
     
     //ms counters
     MaxCounter#(.N(17)) msCounter(.rst(timerRst), .en(msEn),        .clk(CLK100MHZ), .maxVal(100000), .rollover(oneInc),      .count(msVal));
@@ -105,7 +107,7 @@ module ReactionTimer(
     logic [2:0] nstate;
     
     always_ff @(posedge CLK100MHZ) begin
-        state = nstate;
+        state <= nstate;
     end
     
     always_comb begin
@@ -120,8 +122,8 @@ module ReactionTimer(
                 RNGen = 1;
                 RNGRst = 1;
                 RandomWait = 0;
-                LED[0] = 0;
-                if(SW[0])
+                LED = {15{1'b0}};
+                if(BTNL)
                     nstate = waiting;
                 else
                     nstate = intro;
@@ -136,12 +138,14 @@ module ReactionTimer(
                 RNGen = 0;
                 RNGRst = 0;
                 RandomWait = 1;
-                LED[0] = 0;
-                LED[1] = 1;
-                if(RNGVal + 1 <= currWait[30:26])
-                    nstate = reacting;
+                LED = {15{1'b0}};
+                if(BTNC)
+                    nstate = cheated;
                 else
-                    nstate = waiting;
+                    if(RNGVal + 1 <= currWait[30:26])
+                        nstate = reacting;
+                    else
+                        nstate = waiting;
             end
             reacting: begin 
                 timerRst = 0;
@@ -150,11 +154,17 @@ module ReactionTimer(
                 seg1 = segTen;
                 seg2 = segHundred;
                 seg3 = segThousand;
-                LED[0] = 1;
-                if(segThousand == 8'b11011010)
-                    nstate = intro;
+                RNGen = 1;
+                RNGRst = 1;
+                RandomWait = 0;
+                LED = {15{1'b1}};
+                if(thousandVal >= 1)
+                    nstate = timeout;
                 else
-                    nstate = reacting;
+                    if(BTNC)
+                        nstate = results;
+                    else
+                        nstate = reacting;
             end
             timeout: begin
                 timerRst = 0;
@@ -163,11 +173,14 @@ module ReactionTimer(
                 seg1 = segTen;
                 seg2 = segHundred;
                 seg3 = segThousand;
-                LED[0] = 0;
-				if(SW[15])
-					nstate = waiting;
-				else
-					nstate = timeout;
+                RNGen = 1;
+                RNGRst = 1;
+                RandomWait = 0;
+                LED = {15{1'b0}};
+                if(BTNR)
+                    nstate = intro;
+                else
+                    nstate = timeout;
             end
             results: begin 
                 timerRst = 0;
@@ -176,11 +189,14 @@ module ReactionTimer(
                 seg1 = segTen;
                 seg2 = segHundred;
                 seg3 = segThousand;
-                LED[0] = 0;
-				if(SW[15])
-					nstate = waiting;
-				else
-					nstate = results;
+                RNGen = 1;
+                RNGRst = 1;
+                RandomWait = 0;
+                LED = {15{1'b0}};
+                if(BTNR)
+                    nstate = intro;
+                else
+                    nstate = results;
             end
             cheated: begin
                 timerRst = 0;
@@ -189,12 +205,15 @@ module ReactionTimer(
                 seg1 = Xss;
                 seg2 = Xss;
                 seg3 = Xss;
-                LED[0] = 0;
-				if(SW[15])
-					nstate = waiting;
-				else
-					nstate = cheated;
+                RNGen = 1;
+                RNGRst = 1;
+                RandomWait = 0;
+                LED = {15{1'b0}};
+                if(BTNR)
+                    nstate = intro;
+                else
+                    nstate = cheated;
             end
         endcase
-    end  
+    end
 endmodule
