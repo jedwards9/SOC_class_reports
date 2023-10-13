@@ -38,9 +38,9 @@ void led_check(GpoCore *led_p, int n) {
 
    for (i = 0; i < n; i++) {
       led_p->write(1, i);
-      sleep_ms(200);
+      sleep_ms(100);
       led_p->write(0, i);
-      sleep_ms(200);
+      sleep_ms(300);
    }
 }
 
@@ -84,7 +84,7 @@ int main() {
       timer_check(&led);
       led_check(&led, 16);
       sw_check(&led, &sw);
-      uart_check();
+      //uart_check();
       debug("main - switch value / up time : ", sw.read(), now_ms());
    } //while
 } //main
