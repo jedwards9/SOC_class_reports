@@ -1,0 +1,1027 @@
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened new HwDB with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2023-10-03.12:13:48::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform"
+		}]
+}
+TRACE::2023-10-03.12:13:48::SCWPlatform::Boot application domains not present, creating them
+TRACE::2023-10-03.12:13:48::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2023-10-03.12:13:48::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform"
+		}]
+}
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:48::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:48::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-03.12:13:48::SCWMssOS::No sw design opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:48::SCWMssOS::mss does not exists at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:49::SCWMssOS::Creating sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:49::SCWMssOS::Adding the swdes entry, created swdb C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss with des name C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:49::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:49::SCWMssOS::Writing mss at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:49::SCWMssOS::Completed writing the mss file at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp
+TRACE::2023-10-03.12:13:49::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2023-10-03.12:13:49::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2023-10-03.12:13:49::SCWMssOS::Completed writing the mss file at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp
+TRACE::2023-10-03.12:13:49::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-10-03.12:13:51::SCWMssOS::Writing the mss file completed C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2023-10-03.12:13:51::SCWPlatform::Started generating the artifacts platform VanillaPlatform
+TRACE::2023-10-03.12:13:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-03.12:13:51::SCWPlatform::Started generating the artifacts for system configuration VanillaPlatform
+LOG::2023-10-03.12:13:51::SCWSystem::Checking the domain standalone_domain
+LOG::2023-10-03.12:13:51::SCWSystem::Not a boot domain 
+LOG::2023-10-03.12:13:51::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-10-03.12:13:51::SCWDomain::Generating domain artifcats
+TRACE::2023-10-03.12:13:51::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-03.12:13:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Completed writing the mss file at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp
+TRACE::2023-10-03.12:13:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-10-03.12:13:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-10-03.12:13:51::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2023-10-03.12:13:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-10-03.12:13:51::SCWMssOS::Copying to export directory.
+TRACE::2023-10-03.12:13:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-03.12:13:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-03.12:13:51::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-10-03.12:13:51::SCWSystem::Completed Processing the sysconfig VanillaPlatform
+LOG::2023-10-03.12:13:51::SCWPlatform::Completed generating the artifacts for system configuration VanillaPlatform
+TRACE::2023-10-03.12:13:51::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-03.12:13:51::SCWSystem::Writing the bif file for system config VanillaPlatform
+TRACE::2023-10-03.12:13:51::SCWSystem::dir created 
+TRACE::2023-10-03.12:13:51::SCWSystem::Writing the bif 
+TRACE::2023-10-03.12:13:51::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-03.12:13:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-03.12:13:51::SCWPlatform::Completed generating the platform
+TRACE::2023-10-03.12:13:51::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-03.12:13:51::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-10-03.12:13:51::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:13:51::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:51::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Opened existing hwdb mcs_top_vanilla_0
+TRACE::2023-10-03.12:13:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:51::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:51::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:51::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-10-03.12:13:52::SCWPlatform::Clearing the existing platform
+TRACE::2023-10-03.12:13:52::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-10-03.12:13:52::SCWMssOS::Removing the swdes entry for  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWSystem::Clearing the domains completed.
+TRACE::2023-10-03.12:13:52::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform location is C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Removing the HwDB with name C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened new HwDB with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWReader::Active system found as  VanillaPlatform
+TRACE::2023-10-03.12:13:52::SCWReader::Handling sysconfig VanillaPlatform
+TRACE::2023-10-03.12:13:52::SCWDomain::checking for install qemu data   : 
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:52::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-10-03.12:13:52::SCWMssOS::No sw design opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::mss exists loading the mss file  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::Opened the sw design from mss  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::Adding the swdes entry C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss with des name system
+TRACE::2023-10-03.12:13:52::SCWMssOS::updating the scw layer about changes
+TRACE::2023-10-03.12:13:52::SCWMssOS::Opened the sw design.  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:13:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:13:52::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:13:52::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-10-03.12:13:52::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:52::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:52::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:52::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:52::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:52::SCWReader::No isolation master present  
+LOG::2023-10-03.12:13:57::SCWPlatform::Started generating the artifacts platform VanillaPlatform
+TRACE::2023-10-03.12:13:57::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-10-03.12:13:57::SCWPlatform::Started generating the artifacts for system configuration VanillaPlatform
+LOG::2023-10-03.12:13:57::SCWSystem::Checking the domain standalone_domain
+LOG::2023-10-03.12:13:57::SCWSystem::Not a boot domain 
+LOG::2023-10-03.12:13:57::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2023-10-03.12:13:57::SCWDomain::Generating domain artifcats
+TRACE::2023-10-03.12:13:57::SCWMssOS::Generating standalone artifcats
+TRACE::2023-10-03.12:13:57::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-10-03.12:13:57::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:57::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:57::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:57::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:13:57::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:13:57::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:13:57::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:57::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:13:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:13:57::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:13:57::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:57::SCWMssOS::Completed writing the mss file at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp
+TRACE::2023-10-03.12:13:57::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:13:57::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-10-03.12:13:57::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-10-03.12:13:57::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2023-10-03.12:13:57::SCWMssOS::doing bsp build ... 
+TRACE::2023-10-03.12:13:57::SCWMssOS::System Command Ran  C: & cd  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp & make 
+TRACE::2023-10-03.12:13:58::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::"Running Make include in microblaze_I/libsrc/bram_v4_7/src"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-10-03.12:13:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2023-10-03.12:13:58::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::"Running Make include in microblaze_I/libsrc/cpu_v2_14/src"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-10-03.12:13:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata
+TRACE::2023-10-03.12:13:58::SCWMssOS::-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::"Running Make include in microblaze_I/libsrc/iomodule_v2_12/src"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_12/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "CO
+TRACE::2023-10-03.12:13:58::SCWMssOS::MPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -
+TRACE::2023-10-03.12:13:58::SCWMssOS::fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::"Running Make include in microblaze_I/libsrc/standalone_v7_6/src"
+
+TRACE::2023-10-03.12:13:58::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-10-03.12:13:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections 
+TRACE::2023-10-03.12:13:58::SCWMssOS::-fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::"Running Make libs in microblaze_I/libsrc/bram_v4_7/src"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::make -C microblaze_I/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-10-03.12:13:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2023-10-03.12:13:59::SCWMssOS::ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::"Running Make libs in microblaze_I/libsrc/cpu_v2_14/src"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::make -C microblaze_I/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-10-03.12:13:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-se
+TRACE::2023-10-03.12:13:59::SCWMssOS::ctions -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::"Running Make libs in microblaze_I/libsrc/iomodule_v2_12/src"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::make -C microblaze_I/libsrc/iomodule_v2_12/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2023-10-03.12:13:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fda
+TRACE::2023-10-03.12:13:59::SCWMssOS::ta-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::"Running Make libs in microblaze_I/libsrc/standalone_v7_6/src"
+
+TRACE::2023-10-03.12:13:59::SCWMssOS::make -C microblaze_I/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-10-03.12:13:59::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fd
+TRACE::2023-10-03.12:13:59::SCWMssOS::ata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-10-03.12:14:02::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::mb-ar -r  microblaze_I/lib/libxil.a microblaze_I/lib/xplatform_info.o microblaze_I/lib/microblaze_disable_exceptions.o microbla
+TRACE::2023-10-03.12:14:03::SCWMssOS::ze_I/lib/print.o microblaze_I/lib/_exit.o microblaze_I/lib/xil_testio.o microblaze_I/lib/microblaze_disable_dcache.o microblaze
+TRACE::2023-10-03.12:14:03::SCWMssOS::_I/lib/microblaze_flush_dcache_range.o microblaze_I/lib/microblaze_flush_cache_ext.o microblaze_I/lib/xbram_sinit.o microblaze_
+TRACE::2023-10-03.12:14:03::SCWMssOS::I/lib/xil_misc_psreset_api.o microblaze_I/lib/xil_cache.o microblaze_I/lib/inbyte.o microblaze_I/lib/xbram_g.o microblaze_I/lib
+TRACE::2023-10-03.12:14:03::SCWMssOS::/xiomodule_intr.o microblaze_I/lib/xiomodule_options.o microblaze_I/lib/microblaze_exception_handler.o microblaze_I/lib/microbl
+TRACE::2023-10-03.12:14:03::SCWMssOS::aze_scrub.o microblaze_I/lib/microblaze_invalidate_dcache.o microblaze_I/lib/microblaze_disable_interrupts.o microblaze_I/lib/x
+TRACE::2023-10-03.12:14:03::SCWMssOS::bram_selftest.o microblaze_I/lib/microblaze_interrupt_handler.o microblaze_I/lib/xiomodule_l.o microblaze_I/lib/microblaze_disa
+TRACE::2023-10-03.12:14:03::SCWMssOS::ble_icache.o microblaze_I/lib/xil_clocking.o microblaze_I/lib/xil_mem.o microblaze_I/lib/xiomodule.o microblaze_I/lib/microblaz
+TRACE::2023-10-03.12:14:03::SCWMssOS::e_flush_cache_ext_range.o microblaze_I/lib/xbram_intr.o microblaze_I/lib/xil_sleepcommon.o microblaze_I/lib/xil_printf.o microb
+TRACE::2023-10-03.12:14:03::SCWMssOS::laze_I/lib/xio.o microblaze_I/lib/xiomodule_extra.o microblaze_I/lib/outbyte.o microblaze_I/lib/microblaze_invalidate_dcache_ra
+TRACE::2023-10-03.12:14:03::SCWMssOS::nge.o microblaze_I/lib/microblaze_invalidate_cache_ext.o microblaze_I/lib/microblaze_sleep.o microblaze_I/lib/hw_exception_hand
+TRACE::2023-10-03.12:14:03::SCWMssOS::ler.o microblaze_I/lib/xiomodule_stats.o microblaze_I/lib/xil_util.o microblaze_I/lib/microblaze_update_dcache.o microblaze_I/l
+TRACE::2023-10-03.12:14:03::SCWMssOS::ib/xil_testcache.o microblaze_I/lib/microblaze_selftest.o microblaze_I/lib/microblaze_interrupts_g.o microblaze_I/lib/microblaz
+TRACE::2023-10-03.12:14:03::SCWMssOS::e_enable_exceptions.o microblaze_I/lib/xiomodule_uart_intr.o microblaze_I/lib/microblaze_enable_dcache.o microblaze_I/lib/xbram
+TRACE::2023-10-03.12:14:03::SCWMssOS::.o microblaze_I/lib/microblaze_invalidate_icache_range.o microblaze_I/lib/microblaze_init_dcache_range.o microblaze_I/lib/micro
+TRACE::2023-10-03.12:14:03::SCWMssOS::blaze_invalidate_icache.o microblaze_I/lib/errno.o microblaze_I/lib/xiomodule_uart.o microblaze_I/lib/microblaze_invalidate_cac
+TRACE::2023-10-03.12:14:03::SCWMssOS::he_ext_range.o microblaze_I/lib/xil_exception.o microblaze_I/lib/pvr.o microblaze_I/lib/xil_testmem.o microblaze_I/lib/microbla
+TRACE::2023-10-03.12:14:03::SCWMssOS::ze_update_icache.o microblaze_I/lib/microblaze_flush_dcache.o microblaze_I/lib/xiomodule_g.o microblaze_I/lib/xil_assert.o micr
+TRACE::2023-10-03.12:14:03::SCWMssOS::oblaze_I/lib/microblaze_enable_interrupts.o microblaze_I/lib/microblaze_enable_icache.o microblaze_I/lib/xiomodule_selftest.o m
+TRACE::2023-10-03.12:14:03::SCWMssOS::icroblaze_I/lib/fcntl.o microblaze_I/lib/microblaze_init_icache_range.o
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::Copying to export directory.
+TRACE::2023-10-03.12:14:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-10-03.12:14:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-10-03.12:14:03::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2023-10-03.12:14:03::SCWSystem::Completed Processing the sysconfig VanillaPlatform
+LOG::2023-10-03.12:14:03::SCWPlatform::Completed generating the artifacts for system configuration VanillaPlatform
+TRACE::2023-10-03.12:14:03::SCWPlatform::Started preparing the platform 
+TRACE::2023-10-03.12:14:03::SCWSystem::Writing the bif file for system config VanillaPlatform
+TRACE::2023-10-03.12:14:03::SCWSystem::dir created 
+TRACE::2023-10-03.12:14:03::SCWSystem::Writing the bif 
+TRACE::2023-10-03.12:14:03::SCWPlatform::Started writing the spfm file 
+TRACE::2023-10-03.12:14:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-10-03.12:14:03::SCWPlatform::Completed generating the platform
+TRACE::2023-10-03.12:14:03::SCWMssOS::Saving the mss changes C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:14:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-10-03.12:14:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-10-03.12:14:03::SCWMssOS::Commit changes completed.
+TRACE::2023-10-03.12:14:03::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:14:03::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:14:03::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:14:03::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:14:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:14:03::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:14:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:14:03::SCWWriter::formatted JSON is {
+	"platformName":	"VanillaPlatform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"VanillaPlatform",
+	"platHandOff":	"C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/mcs_top_vanilla.xsa",
+	"platIntHandOff":	"<platformDir>/hw/mcs_top_vanilla.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"VanillaPlatform",
+	"systems":	[{
+			"systemName":	"VanillaPlatform",
+			"systemDesc":	"VanillaPlatform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"VanillaPlatform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_I",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_I",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"1918b643e64ab49e98ae691f2d427e52",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-10-03.12:14:03::SCWPlatform::updated the xpfm file.
+TRACE::2023-10-03.12:14:03::SCWPlatform::Trying to open the hw design at C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA given C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA absoulate path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform::DSA directory C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw
+TRACE::2023-10-03.12:14:03::SCWPlatform:: Platform Path C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/hw/mcs_top_vanilla.xsa
+TRACE::2023-10-03.12:14:03::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-10-03.12:14:03::SCWPlatform::Trying to set the existing hwdb with name mcs_top_vanilla_1
+TRACE::2023-10-03.12:14:03::SCWPlatform::Opened existing hwdb mcs_top_vanilla_1
+TRACE::2023-10-03.12:14:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-10-03.12:14:03::SCWMssOS::Checking the sw design at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss
+TRACE::2023-10-03.12:14:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss|system||
+
+TRACE::2023-10-03.12:14:03::SCWMssOS::Sw design exists and opened at  C:/Users/jordan_edwards4/Documents/SOC2/Vitis/VanillaPlatform/microblaze_I/standalone_domain/bsp/system.mss

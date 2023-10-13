@@ -1,0 +1,6 @@
+12:41:38 **** Incremental Build of configuration Debug for project VanillaProject ****
+make all 
+make: Nothing to be done for 'all'.
+
+12:41:39 Build Finished (took 539ms)
+

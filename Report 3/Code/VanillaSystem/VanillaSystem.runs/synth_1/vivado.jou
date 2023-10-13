@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Oct  3 12:05:53 2023
+# Process ID: 2224
+# Current directory: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1
+# Command line: vivado.exe -log mcs_top_vanilla.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_vanilla.tcl
+# Log file: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1/mcs_top_vanilla.vds
+# Journal file: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1\vivado.jou
+# Running On: DRSKO-RESH04, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 34278 MB
+#-----------------------------------------------------------
+source mcs_top_vanilla.tcl -notrace

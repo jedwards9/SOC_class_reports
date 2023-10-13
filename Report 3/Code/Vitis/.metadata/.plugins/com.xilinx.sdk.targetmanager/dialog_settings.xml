@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="VanillaApplication_system-bitFile" value="${project_loc:VanillaApplication}/_ide/bitstream/mcs_top_vanilla.bit"/>
+	<item key="VanillaApplication_system-bmmFile" value="${project_loc:VanillaApplication}/_ide/bitstream/mcs_top_vanilla.mmi"/>
+	<item key="VanillaApplication_system-target" value="Local"/>
+	<item key="VanillaApplication_system-device" value="Auto Detect"/>
+	<item key="VanillaApplication_system-partial_bit" value="false"/>
+	<item key="VanillaApplication_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="VanillaProject_system"/>
+	<item key="VanillaApplication_system-microblaze_I-initElf" value="C:\Users\jordan_edwards4\Documents\SOC2\Vitis\VanillaApplication\Debug\VanillaApplication.elf"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Nexys4DDR 210292A4BA47A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Nexys4DDR-210292A4BA47A-13631093-0&quot;}}]}"/>
+	<item key="VanillaProject_system-bitFile" value="${project_loc:VanillaProject}/_ide/bitstream/mcs_top_vanilla.bit"/>
+	<item key="VanillaProject_system-bmmFile" value="${project_loc:VanillaProject}/_ide/bitstream/mcs_top_vanilla.mmi"/>
+	<item key="VanillaProject_system-target" value="Local"/>
+	<item key="VanillaProject_system-device" value="Auto Detect"/>
+	<item key="VanillaProject_system-partial_bit" value="false"/>
+	<item key="VanillaProject_system-skip_rev_check" value="false"/>
+	<item key="VanillaProject_system-microblaze_I-initElf" value="C:\Users\jordan_edwards4\Documents\SOC2\Vitis\VanillaProject\Debug\VanillaProject.elf"/>
+</section>

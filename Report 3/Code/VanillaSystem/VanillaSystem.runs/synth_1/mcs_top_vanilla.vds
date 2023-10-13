@@ -1,0 +1,545 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Oct  3 12:05:53 2023
+# Process ID: 2224
+# Current directory: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1
+# Command line: vivado.exe -log mcs_top_vanilla.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mcs_top_vanilla.tcl
+# Log file: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1/mcs_top_vanilla.vds
+# Journal file: C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1\vivado.jou
+# Running On: DRSKO-RESH04, OS: Windows, CPU Frequency: 3592 MHz, CPU Physical cores: 4, Host memory: 34278 MB
+#-----------------------------------------------------------
+source mcs_top_vanilla.tcl -notrace
+Command: synth_design -top mcs_top_vanilla -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11548
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1566.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mcs_top_vanilla' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/top/mcs_top_vanilla.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'cpu' [C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1/.Xil/Vivado-2224-DRSKO-RESH04/realtime/cpu_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cpu' (1#1) [C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1/.Xil/Vivado-2224-DRSKO-RESH04/realtime/cpu_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'chu_mcs_bridge' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/bridge/chu_mcs_bridge.sv:1]
+	Parameter BRG_BASE bound to: -1073741824 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'chu_mcs_bridge' (2#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/bridge/chu_mcs_bridge.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'mmio_sys_vanilla' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/subsys/mmio_sys_vanilla.sv:2]
+	Parameter N_SW bound to: 16 - type: integer 
+	Parameter N_LED bound to: 16 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'chu_mmio_controller' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/chu_mmio_controller.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_mmio_controller' (3#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/chu_mmio_controller.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_timer' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_timer.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'chu_timer' (4#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_timer.sv:9]
+INFO: [Synth 8-6157] synthesizing module 'chu_uart' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/chu_uart.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'uart' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart.sv:1]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+	Parameter FIFO_W bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'baud_gen' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/baud_gen.sv:4]
+INFO: [Synth 8-6155] done synthesizing module 'baud_gen' (5#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/baud_gen.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'uart_rx' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_rx.sv:2]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_rx.sv:47]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx' (6#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_rx.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'uart_tx' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_tx.sv:2]
+	Parameter DBIT bound to: 8 - type: integer 
+	Parameter SB_TICK bound to: 16 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_tx.sv:52]
+INFO: [Synth 8-6155] done synthesizing module 'uart_tx' (7#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart_tx.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo.sv:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'fifo_ctrl' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv:2]
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-294] found qualifier unique on case statement: implementing as parallel_case [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv:49]
+INFO: [Synth 8-6155] done synthesizing module 'fifo_ctrl' (8#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo_ctrl.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'reg_file' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/reg_file.sv:2]
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_file' (9#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/reg_file.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (10#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_support/fifo/fifo.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'uart' (11#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/uart.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'chu_uart' (12#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/uart/chu_uart.sv:8]
+INFO: [Synth 8-6157] synthesizing module 'chu_gpo' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpo.sv:1]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'chu_gpo' (13#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpo.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'chu_gpi' [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpi.sv:1]
+	Parameter W bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'chu_gpi' (14#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/mmio/mmio_basic/chu_gpi.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'mmio_sys_vanilla' (15#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/subsys/mmio_sys_vanilla.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'mcs_top_vanilla' (16#1) [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/hdl/sys/top/mcs_top_vanilla.sv:1]
+WARNING: [Synth 8-7129] Port cs in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[4] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[3] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[31] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[30] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[29] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[28] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[27] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[26] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[25] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[24] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[23] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[22] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[21] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[20] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[19] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[18] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[17] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[16] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[15] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[14] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[13] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[12] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[11] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[10] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[9] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[8] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[7] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[6] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[5] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[4] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[3] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[2] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[1] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[0] in module chu_gpi is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[4] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[3] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[1] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[0] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[31] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[30] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[29] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[28] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[27] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[26] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[25] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[24] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[23] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[22] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[21] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[20] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[19] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[18] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[17] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[16] in module chu_gpo is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[4] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[3] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[31] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[30] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[29] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[28] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[27] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[26] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[25] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[24] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[23] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[22] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[21] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[20] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[19] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[18] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[17] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[16] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[15] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[14] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[13] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[12] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[11] in module chu_uart is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[4] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[3] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addr[2] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[31] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[30] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[29] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[28] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[27] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[26] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[25] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[24] in module chu_timer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wr_data[23] in module chu_timer is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1566.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1566.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1566.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1566.496 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.gen/sources_1/ip/cpu/cpu/cpu_in_context.xdc] for cell 'cpu_unit'
+Finished Parsing XDC File [c:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.gen/sources_1/ip/cpu/cpu/cpu_in_context.xdc] for cell 'cpu_unit'
+Parsing XDC File [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc]
+WARNING: [Vivado 12-584] No ports matched 'btn[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'btn[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'btn[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'btn[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'btn[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:76]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:77]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led1[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:78]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:79]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:80]
+WARNING: [Vivado 12-584] No ports matched 'rgb_led2[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:81]
+WARNING: [Vivado 12-584] No ports matched 'sseg[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'sseg[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'sseg[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'sseg[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'sseg[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'sseg[5]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'sseg[6]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'sseg[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:94]
+WARNING: [Vivado 12-584] No ports matched 'an[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:96]
+WARNING: [Vivado 12-584] No ports matched 'an[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:97]
+WARNING: [Vivado 12-584] No ports matched 'an[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:98]
+WARNING: [Vivado 12-584] No ports matched 'an[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:99]
+WARNING: [Vivado 12-584] No ports matched 'an[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:100]
+WARNING: [Vivado 12-584] No ports matched 'an[5]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:101]
+WARNING: [Vivado 12-584] No ports matched 'an[6]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:102]
+WARNING: [Vivado 12-584] No ports matched 'an[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:103]
+WARNING: [Vivado 12-584] No ports matched 'audio_pdm'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:109]
+WARNING: [Vivado 12-584] No ports matched 'audio_on'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:110]
+WARNING: [Vivado 12-584] No ports matched 'ps2c'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:125]
+WARNING: [Vivado 12-584] No ports matched 'ps2d'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:126]
+WARNING: [Vivado 12-584] No ports matched 'tmp_i2c_scl'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:133]
+WARNING: [Vivado 12-584] No ports matched 'tmp_i2c_sda'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:134]
+WARNING: [Vivado 12-584] No ports matched 'acl_miso'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:144]
+WARNING: [Vivado 12-584] No ports matched 'acl_mosi'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:145]
+WARNING: [Vivado 12-584] No ports matched 'acl_sclk'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:146]
+WARNING: [Vivado 12-584] No ports matched 'acl_ss_n'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:147]
+WARNING: [Vivado 12-584] No ports matched 'hsync'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:156]
+WARNING: [Vivado 12-584] No ports matched 'vsync'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:157]
+WARNING: [Vivado 12-584] No ports matched 'rgb[8]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:158]
+WARNING: [Vivado 12-584] No ports matched 'rgb[9]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:159]
+WARNING: [Vivado 12-584] No ports matched 'rgb[10]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:160]
+WARNING: [Vivado 12-584] No ports matched 'rgb[11]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:161]
+WARNING: [Vivado 12-584] No ports matched 'rgb[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:162]
+WARNING: [Vivado 12-584] No ports matched 'rgb[5]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:163]
+WARNING: [Vivado 12-584] No ports matched 'rgb[6]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:164]
+WARNING: [Vivado 12-584] No ports matched 'rgb[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:165]
+WARNING: [Vivado 12-584] No ports matched 'rgb[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:166]
+WARNING: [Vivado 12-584] No ports matched 'rgb[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:167]
+WARNING: [Vivado 12-584] No ports matched 'rgb[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:168]
+WARNING: [Vivado 12-584] No ports matched 'rgb[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:169]
+WARNING: [Vivado 12-584] No ports matched 'sd_reset'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:174]
+WARNING: [Vivado 12-584] No ports matched 'sd_sclk'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:175]
+WARNING: [Vivado 12-584] No ports matched 'sd_mosi'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:176]
+WARNING: [Vivado 12-584] No ports matched 'sd_miso'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:177]
+WARNING: [Vivado 12-584] No ports matched 'sd_ss_n'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:180]
+WARNING: [Vivado 12-584] No ports matched 'adc_n[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:207]
+WARNING: [Vivado 12-584] No ports matched 'adc_p[0]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:208]
+WARNING: [Vivado 12-584] No ports matched 'adc_n[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:209]
+WARNING: [Vivado 12-584] No ports matched 'adc_p[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:210]
+WARNING: [Vivado 12-584] No ports matched 'adc_n[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:211]
+WARNING: [Vivado 12-584] No ports matched 'adc_p[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:212]
+WARNING: [Vivado 12-584] No ports matched 'adc_n[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:213]
+WARNING: [Vivado 12-584] No ports matched 'adc_p[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:214]
+WARNING: [Vivado 12-584] No ports matched 'ja_top[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:223]
+WARNING: [Vivado 12-584] No ports matched 'ja_top[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:224]
+WARNING: [Vivado 12-584] No ports matched 'ja_top[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:225]
+WARNING: [Vivado 12-584] No ports matched 'ja_top[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:226]
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:227]
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[8]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:228]
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[9]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:229]
+WARNING: [Vivado 12-584] No ports matched 'ja_btm[10]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:230]
+WARNING: [Vivado 12-584] No ports matched 'jb_top[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:237]
+WARNING: [Vivado 12-584] No ports matched 'jb_top[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:238]
+WARNING: [Vivado 12-584] No ports matched 'jb_top[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:239]
+WARNING: [Vivado 12-584] No ports matched 'jb_top[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:240]
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:241]
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[8]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:242]
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[9]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:243]
+WARNING: [Vivado 12-584] No ports matched 'jb_btm[10]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:244]
+WARNING: [Vivado 12-584] No ports matched 'jc_top[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:251]
+WARNING: [Vivado 12-584] No ports matched 'jc_top[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:252]
+WARNING: [Vivado 12-584] No ports matched 'jc_top[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:253]
+WARNING: [Vivado 12-584] No ports matched 'jc_top[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:254]
+WARNING: [Vivado 12-584] No ports matched 'jc_btm[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:255]
+WARNING: [Vivado 12-584] No ports matched 'jc_btm[8]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:256]
+WARNING: [Vivado 12-584] No ports matched 'jc_btm[9]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:257]
+WARNING: [Vivado 12-584] No ports matched 'jc_btm[10]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:258]
+WARNING: [Vivado 12-584] No ports matched 'jd_top[1]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:266]
+WARNING: [Vivado 12-584] No ports matched 'jd_top[2]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:267]
+WARNING: [Vivado 12-584] No ports matched 'jd_top[3]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:268]
+WARNING: [Vivado 12-584] No ports matched 'jd_top[4]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:269]
+WARNING: [Vivado 12-584] No ports matched 'jd_btm[7]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:270]
+WARNING: [Vivado 12-584] No ports matched 'jd_btm[8]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:271]
+WARNING: [Vivado 12-584] No ports matched 'jd_btm[9]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:272]
+WARNING: [Vivado 12-584] No ports matched 'jd_btm[10]'. [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc:273]
+Finished Parsing XDC File [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/mcs_top_vanilla_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/jordan_edwards4/Documents/SOC/microblaze_stuff/fpga_mcs_sv_src/constraint/Nexys4_DDR_chu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/mcs_top_vanilla_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/mcs_top_vanilla_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1587.082 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1587.082 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1587.082 ; gain = 20.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1587.082 ; gain = 20.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for cpu_unit. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1587.082 ; gain = 20.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_rx'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'uart_tx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 | 00000000000000000000000000000000
+                   start |                               01 | 00000000000000000000000000000001
+                    data |                               10 | 00000000000000000000000000000010
+                    stop |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_rx'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 | 00000000000000000000000000000000
+                   start |                               01 | 00000000000000000000000000000001
+                    data |                               10 | 00000000000000000000000000000010
+                    stop |                               11 | 00000000000000000000000000000011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'uart_tx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1587.082 ; gain = 20.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   48 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 8     
+	   2 Input    4 Bit       Adders := 2     
+	   2 Input    3 Bit       Adders := 2     
++---Registers : 
+	               48 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                8 Bit    Registers := 6     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input   64 Bit        Muxes := 1     
+	   2 Input   48 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 2     
+	   4 Input    3 Bit        Muxes := 2     
+	   4 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 17    
+	   4 Input    1 Bit        Muxes := 23    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1587.082 ; gain = 20.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                                                       | Inference | Size (Depth x Width) | Primitives   | 
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+|mcs_top_vanilla | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/f_unit/array_reg_reg | Implied   | 256 x 8              | RAM64M x 12  | 
+|mcs_top_vanilla | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/f_unit/array_reg_reg | Implied   | 256 x 8              | RAM64M x 12  | 
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1587.090 ; gain = 20.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1617.402 ; gain = 50.906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+|Module Name     | RTL Object                                                       | Inference | Size (Depth x Width) | Primitives   | 
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+|mcs_top_vanilla | mmio_unit/uart_slot1/uart_unit/fifo_tx_unit/f_unit/array_reg_reg | Implied   | 256 x 8              | RAM64M x 12  | 
+|mcs_top_vanilla | mmio_unit/uart_slot1/uart_unit/fifo_rx_unit/f_unit/array_reg_reg | Implied   | 256 x 8              | RAM64M x 12  | 
++----------------+------------------------------------------------------------------+-----------+----------------------+--------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1622.262 ; gain = 55.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cpu           |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |cpu    |     1|
+|2     |BUFG   |     1|
+|3     |CARRY4 |    13|
+|4     |LUT1   |     5|
+|5     |LUT2   |    64|
+|6     |LUT3   |    25|
+|7     |LUT4   |    33|
+|8     |LUT5   |    43|
+|9     |LUT6   |    97|
+|10    |RAM64M |    24|
+|11    |FDCE   |   171|
+|12    |FDPE   |     3|
+|13    |IBUF   |    19|
+|14    |OBUF   |    17|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:29 . Memory (MB): peak = 1627.062 ; gain = 39.980
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1627.062 ; gain = 60.566
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1639.137 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 37 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1643.016 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 24 instances were transformed.
+  RAM64M => RAM64M (RAMD64E(x4)): 24 instances
+
+Synth Design complete, checksum: cd110774
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 198 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1643.016 ; gain = 76.520
+INFO: [Common 17-1381] The checkpoint 'C:/Users/jordan_edwards4/Documents/SOC2/VanillaSystem/VanillaSystem.runs/synth_1/mcs_top_vanilla.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mcs_top_vanilla_utilization_synth.rpt -pb mcs_top_vanilla_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  3 12:06:44 2023...
